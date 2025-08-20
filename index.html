@@ -12,10 +12,35 @@
       <div class="container">
         <nav class="nav">
           <div class="logo">
-            <img
-              src="./public/WhatsApp Image 2025-08-19 at 8.30.13 PM.jpeg"
-              alt="logo"
-            />
+            <img src="./public/logo.svg" alt="logo" />
+          </div>
+          <div class="hamburger">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="open"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="close"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+              />
+            </svg>
           </div>
           <div class="menu">
             <a href="#/home">Inicio</a>
@@ -29,7 +54,7 @@
 
     <main>
       <div class="container flex justify-center">
-        <section id="home" class="section show">
+        <section id="home" class="section show active">
           <h1 class="text-center text-capitalize py-5 font-bold font-30">
             Análisis de Proyecto web - Firma de Abogados "Te Apoyamos SAS"
           </h1>
@@ -112,13 +137,15 @@
           </div>
         </section>
 
-        <section id="actoresInformacion" class="section show active">
+        <section id="actoresInformacion" class="section show">
           <h2 class="text-center mt-50 font-30 text-capitalize">
             Actores involucrados y Información a registrar
           </h2>
 
           <div class="info__wrapper">
-            <ul class="mt-30 flex gap-20 flex-column px-50 spacing line-height">
+            <ul
+              class="font-20 mt-30 flex gap-20 flex-column px-50 spacing line-height"
+            >
               <h2 class="mt-50 font-20 text-capitalize">
                 Actores involucrados
               </h2>
@@ -145,7 +172,9 @@
               </li>
             </ul>
 
-            <ul class="mt-30 flex gap-20 flex-column px-50 spacing line-height">
+            <ul
+              class="font-20 mt-30 flex gap-20 flex-column px-50 spacing line-height"
+            >
               <h2 class="mt-50 font-20 text-capitalize">
                 Información a registrar
               </h2>
@@ -175,13 +204,161 @@
             </ul>
           </div>
         </section>
+        <section id="frameworks" class="section show">
+          <h2 class="text-center mt-50 font-30 text-capitalize">
+            Frameworks y herramientas para diseño web usable y responsive
+          </h2>
+
+          <div class="info__wrapper">
+            <ul
+              class="font-20 flex gap-20 flex-column px-50 spacing line-height"
+            >
+              <h2 class="mt-50 font-20 text-capitalize">Frameworks</h2>
+              <li>
+                <h3>Bootstrap</h3>
+                <p>
+                  Es uno de los frameworks más usados para diseño responsive.
+                  Ofrece un sistema de rejillas (grid system) que facilita
+                  adaptar el contenido a pantallas de distintos tamaños, además
+                  de componentes ya diseñados (botones, menús, formularios).
+                </p>
+              </li>
+              <li>
+                <h3>Tailwind CSS</h3>
+                <p>
+                  Es un framework de CSS moderno que permite personalizar
+                  estilos de forma rápida y flexible. Favorece la creación de
+                  interfaces limpias y responsivas mediante clases utilitarias,
+                  evitando escribir mucho CSS desde cero
+                </p>
+              </li>
+              <li>
+                <h3>Foundation</h3>
+                <p>
+                  Menos conocido que Bootstrap, pero muy potente. Ofrece
+                  componentes accesibles y adaptativos, además de buenas
+                  prácticas en usabilidad y accesibilidad web.
+                </p>
+              </li>
+
+              <li>
+                <h3>Materialize</h3>
+                <p>
+                  Basado en las guías de diseño de Google Material Design.
+                  Permite crear páginas modernas y responsivas con componentes
+                  visuales consistentes.
+                </p>
+              </li>
+              <li>
+                <h3>React (librería) y Vue.js / Angular (frameworks)</h3>
+                <p>
+                  permiten crear aplicaciones web más usables, porque hacen que
+                  la interacción con el usuario sea más fluida (sin recargar la
+                  página completa, manejo de componentes, estados, etc.).
+                </p>
+              </li>
+
+              <li class="frameworks">
+                <p>
+                  Para el diseño responsive, normalmente se combinan con
+                  frameworks de CSS como Bootstrap o Tailwind. Ejemplo: React +
+                  Tailwind o Vue + BootstrapVue.
+                </p>
+                <p>
+                  Bootstrap, Tailwind, Foundation, Materialize, estan enfocados
+                  en responsive design y usabilidad visual.
+                </p>
+                <p>
+                  React, Vue.js, Angular estan enfocados en usabilidad funcional
+                  e interacción dinámica. Por lo tanto, estos no son
+                  específicamente frameworks de diseño responsive, contribuyen a
+                  la usabilidad y al desarrollo de interfaces modernas.
+                </p>
+
+                <nav>
+                  <ul class="marker flex flex-column gap-20">
+                    <li>
+                      <a
+                        class="freworksLink"
+                        target="_blank"
+                        href="https://www.marketerosagencia.com/blog/diseno-web/caracteristicas-diseno-web-responsive/#:~:text=Los%20frameworks%20CSS%20como%20Bootstrap,la%20adaptabilidad%20a%20diferentes%20dispositivos."
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="30"
+                          fill="currentColor"
+                          class="bi bi-link-45deg"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"
+                          />
+                          <path
+                            d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"
+                          />
+                        </svg>
+                        <span>Referencia 1</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="freworksLink"
+                        target="_blank"
+                        href="https://www.eniun.com/frameworks-diseno-web-responsive/"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="30"
+                          fill="currentColor"
+                          class="bi bi-link-45deg"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"
+                          />
+                          <path
+                            d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"
+                          />
+                        </svg>
+                        <span>Referencia 2</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        class="freworksLink"
+                        target="_blank"
+                        href="https://pensare.mx/desarrollo-de-software/conceptos-de-la-programacion-web/#:~:text=Ejemplos%20populares%20de%20frameworks%20incluyen%20Angular%2C%20React%20y%20Vue."
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="30"
+                          fill="currentColor"
+                          class="bi bi-link-45deg"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1 1 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4 4 0 0 1-.128-1.287z"
+                          />
+                          <path
+                            d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243z"
+                          />
+                        </svg>
+                        <span>Referencia 2</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </div>
+        </section>
       </div>
     </main>
 
     <footer class="flex justify-center aling gap-40">
       <p>Copyright ©2025 JACK PACHON</p>
       <div class="logo">
-        <img src="./public/jack_pachon_logo_no_bg.svg" alt="logo" />
+        <img src="./public/logo.svg" alt="logo" />
       </div>
     </footer>
   </body>
