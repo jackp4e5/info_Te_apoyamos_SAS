@@ -23,7 +23,8 @@ function navigate() {
 
 window.addEventListener("load", () => {
   const actualHash = location.hash.slice(2);
-  show(actualHash);
+  
+  show(actualHash || "home");
 });
 
 open.addEventListener("click", () => {
