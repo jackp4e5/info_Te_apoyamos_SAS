@@ -54,12 +54,13 @@ header {
   background: rgba(15, 23, 42, 0.9);
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid #1f2937;
+  z-index: 20;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 24px;
+  padding:5px 24px;
 }
 .nav {
   display: flex;
@@ -86,7 +87,7 @@ header {
   display: flex;
   gap: 20px;
   position: absolute;
-  top: 96px;
+  top: 105px;
   right: -125%;
   flex-direction: column;
   background: #000829;
